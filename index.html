@@ -11,7 +11,7 @@
 
 <body>
 
-    <header>
+    <header id="header">
         <img id="icon" src="./assets/738.png" alt="icon">
         <nav>
             <div>
@@ -95,18 +95,18 @@
             <h2>My Work</h2>
             <div class="sfarjal">
                 <img src="./assets/sfarjal.png" alt="Sfarjal Pie Recipe">
-                <a href="https://idkk252319.github.io/Sfarjal-Pie/
+                <a class="links" href="https://idkk252319.github.io/Sfarjal-Pie/
 ">Sfarjal Pie Recipe </a>
             </div>
 
             <div class="calc">
                 <img src="./assets/calculator.png" alt="Calculator">
-                <a href="https://idkk252319.github.io/Calculator/">Calculator</a>
+                <a class="links" href="https://idkk252319.github.io/Calculator/">Calculator</a>
             </div>
 
             <div class="gtmc">
                 <img src="./assets/england.png" alt="Guide to England">
-                <a href="https://idkk252319.github.io/Guide-to-England/
+                <a class="links" href="https://idkk252319.github.io/Guide-to-England/
 ">Guide to England </a>
             </div>
         </div>
@@ -117,7 +117,8 @@
         <div class="contact">
             <h2>Contact the Goat</h2>
 
-            <form id="contact-form">
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="cbd4d860-c8ed-444b-81ae-70be7233d35b">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your name" required>
                 <label for="email">Email</label>
@@ -129,6 +130,15 @@
         </div>
 
     </section>
+
+
+    <footer>
+        <div class="footer">
+            <h4 class="zainab">Zainab Markabawi 2026</h4> 
+            <a id="footer" href="#header">Back to Top</a>
+            <h4 id="mee">إنّ مع العسر يسرًا.</h4>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
